@@ -1,0 +1,15 @@
+print("Please enter your address details:")
+
+name = input("Name: ")
+house = input("House No / Street: ")
+city = input("City: ")
+state = input("State: ")
+zipcode = input("ZIP Code: ")
+country = input("Country: ")
+
+print("\n----- Your Address -----")
+print(name)
+print(house)
+print(city)
+print(state, zipcode)
+print(country)
